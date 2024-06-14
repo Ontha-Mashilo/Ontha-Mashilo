@@ -1,0 +1,69 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(189, 189, 189);
+  margin: 0;
+}
+
+/*Style the container*/
+#container{
+  position: relative;
+  height: 450px;
+  width: 400px;
+  background-color: rgb(219, 219, 219);
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 33.3%;
+  border-radius: 25px;
+  
+}
+
+/*Style the clock*/
+#clock {
+  position: absolute;
+  font-size: 50px;
+  color:black;
+  margin-top: 125px; 
+  width: 300px;
+  text-align: center;
+  background: white;
+  border: 3px solid white;
+  border-radius: 25px;
+}
+
+/*Style the buttons*/
+#buttons {
+  margin-top: 250px; 
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  position: absolute;
+  font-size: 30px;
+  color: black;
+  width: 100%;
+  text-align: center;
+}
+
+.startBtn{
+  background-color: rgb(63, 219, 63);
+  color: white;
+  width: 100px;
+  border: 3px solid rgb(63, 219, 63);
+  border-radius: 25px;
+}
+
+.stopBtn{
+  background-color: rgb(248, 55, 55);
+  color: white;
+  width: 100px;
+  border: 3px solid rgb(248, 55, 55);
+  border-radius: 25px;
+}
+
+.resetBtn{
+  background-color: rgb(51, 51, 51);
+  color: white;
+  width: 100px;
+  border: 3px solid rgb(51, 51, 51);
+  border-radius: 25px;
+}
